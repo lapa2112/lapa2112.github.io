@@ -1,0 +1,180 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sl-options {
+    padding: 15px;
+}
+
+
+.sl-canvas {
+    position: relative;
+    height: 550px;
+    max-height: 700px;
+    border: 1px solid #BBB;
+    background-color: white;
+}
+
+.sl-node {
+    z-index: 20;
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.sl-node strong {
+    font-weight: 500;
+}
+
+
+.sl-cable {
+    width: 110px;
+    background: #555;
+    color: #FFF;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 0.5em 2px 2px 0.5em;
+
+    left: 40px;
+    top: 247px;
+}
+.sl-tube {
+    background: #4600FF;
+    width: 60px;
+    height: 16px;
+    line-height: 16px;
+    color: #FFF;
+    border-right: 2px solid #555;
+
+    left: 190px;
+}
+.sl-core {
+    border-radius: 0.5em;
+    height: 12px;
+    width: 12px;
+    left: 310px;
+}
+
+.sl-box {
+    border: 3px solid #777;
+    border-radius: 0.5em;
+    position: absolute;
+    width: 240px;
+    height: 460px;
+    text-align: center;
+    top: 20px;
+    left: 400px;
+}
+
+.sl-port-in {
+    border: 1px solid #555;
+    background-color: #555;
+    border-radius: 0.5em;
+    height: 12px;
+    width: 12px;
+
+    left: 420px;
+}
+
+
+#tube-1 {
+    top: 120px;
+}
+#tube-2 {
+    top: 250px;
+}
+#tube-3 {
+    top: 380px;
+}
+
+#core-11 {
+    top: 50px;
+}
+#core-12 {
+    top: 70px;
+}
+#core-13 {
+    top: 90px;
+}
+#core-14 {
+    top: 110px;
+}
+#core-15 {
+    top: 130px;
+}
+#core-16 {
+    top: 150px;
+}
+#core-17 {
+    top: 170px;
+}
+#core-18 {
+    top: 190px;
+}
+#core-21 {
+    top: 230px;
+}
+#core-22 {
+    top: 250px;
+}
+#core-23 {
+    top: 270px;
+}
+#core-24 {
+    top: 290px;
+}
+#core-31 {
+    top: 330px;
+}
+#core-32 {
+    top: 350px;
+}
+#core-33 {
+    top: 370px;
+}
+#core-34 {
+    top: 390px;
+}
+#core-35 {
+    top: 410px;
+}
+#core-36 {
+    top: 430px;
+}
+
+#port-in-1 { top: 50px; }
+#port-in-2 { top: 70px; }
+#port-in-3 { top: 90px; }
+#port-in-4 { top: 110px; }
+#port-in-5 { top: 130px; }
+#port-in-6 { top: 150px; }
+#port-in-7 { top: 170px; }
+#port-in-8 { top: 190px; }
+#port-in-9 { top: 210px; }
+#port-in-10 { top: 230px; }
+#port-in-11 { top: 250px; }
+#port-in-12 { top: 270px; }
+#port-in-13 { top: 290px; }
+#port-in-14 { top: 310px; }
+#port-in-15 { top: 330px; }
+#port-in-16 { top: 350px; }
+#port-in-17 { top: 370px; }
+#port-in-18 { top: 390px; }
+#port-in-19 { top: 410px; }
+#port-in-20 { top: 430px; }
+

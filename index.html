@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <title>jsPlumb - flowchart demonstration</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body data-demo-id="flowchart">
+
+        <div class="jtk-demo-main">
+
+            <div class="sl-options">
+                <form id="sl-options-form" action="" method="get">
+                Connection type:
+                <select id="connection_type" name="connection_type">
+                    <option value="Straight">Straight</option>
+                    <option value="Flowchart">Flowchart</option>
+                </select>
+                </form>
+            </div>
+
+            <div class="sl-canvas" id="sl-connector">
+
+                <div class="sl-cable sl-node" data-type="cable" id="cable-1"><strong>C 1</strong></div>
+
+                <div class="sl-tube sl-node" data-type="tube" id="tube-1" style="background-color: #4600FF"><strong>T 1</strong></div>
+                <div class="sl-tube sl-node" data-type="tube" id="tube-2" style="background-color: #FF6113"><strong>T 2</strong></div>
+                <div class="sl-tube sl-node" data-type="tube" id="tube-3" style="background-color: #00A94D"><strong>T 3</strong></div>
+
+                <div class="sl-core sl-node" data-type="core" id="core-11" style="background-color: #4600FF"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-12" style="background-color: #FF6113"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-13" style="background-color: #00A94D"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-14" style="background-color: #854804"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-15" style="background-color: #959595"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-16" style="background-color: #FE0607"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-17" style="background-color: #F8FF00"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-18" style="background-color: #FF0085"></div>
+
+                <div class="sl-core sl-node" data-type="core" id="core-21" style="background-color: #4600FF"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-22" style="background-color: #FF6113"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-23" style="background-color: #854804"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-24" style="background-color: #F8FF00"></div>
+
+                <div class="sl-core sl-node" data-type="core" id="core-31" style="background-color: #4600FF"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-32" style="background-color: #FF6113"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-33" style="background-color: #854804"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-34" style="background-color: #F8FF00"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-35" style="background-color: rgb(20, 207, 35)"></div>
+                <div class="sl-core sl-node" data-type="core" id="core-36" style="background-color: rgb(176, 40, 194)"></div>
+
+
+                <div class="sl-box"><strong>Connector</strong></div>
+
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-1"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-2"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-3"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-4"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-5"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-6"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-7"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-8"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-9"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-10"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-11"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-12"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-13"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-14"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-15"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-16"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-17"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-18"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-19"></div>
+                <div class="sl-port-in sl-node" data-type="port" id="port-in-20"></div>
+
+
+            </div>
+
+            <!-- explanation -->
+            <!-- <div class="description">
+                    <h4>Some title</h4>
+                    <p>Some description...</p>
+            </div> -->
+            <!-- /explanation -->
+        </div>
+
+
+        <!-- JS -->
+        <script src="./js/jsplumb.js"></script>
+        <script src="./js/sl_connector.js"></script>
+
+    </body>
+</html>
